@@ -116,8 +116,11 @@ q2="홍길동 01012345678 hong@korea.com"
 q2v1=q2.split()
 q2v1[1]='010-1234-5678'
 print(q2v1)
+a=q2v1[0]
+b=q2v1[1]
+c=q2v1[2]
 
-print('이름:{}\n전화번호:{}\ne-mail:{}')
+print('이름:{a}\n전화번호:{b}\ne-mail:{c}')
 
 #문제3
 q3l1=[int(input("정수: "))]
@@ -129,6 +132,14 @@ q3mean=(int(q3sum[0])+int(q3sum[1]))/2
 print(q3mean)
 
 #문제4
+q4v1=[int(input("정수: "))]
+q4v2=[int(input("정수: "))]
+q4v3=[int(input("정수: "))]
+q4v4=[int(input("정수: "))]
+q4v5=[int(input("정수: "))]
+
+q4sum=q4v1+q4v2+q4v3+q4v4+q4v5
+
 
 
 #문제5
