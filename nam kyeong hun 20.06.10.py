@@ -1,3 +1,4 @@
+#nam kyeong hun 20/06/10
 #교과서 예제 실습
 #
 #문자열
@@ -120,7 +121,8 @@ a=q2v1[0]
 b=q2v1[1]
 c=q2v1[2]
 
-print('이름:{a}\n전화번호:{b}\ne-mail:{c}')
+print('이름:{}\n전화번호:{}\ne-mail:{}'.format(a,b,c))
+#.format에서 순서대로 변수그룹 넣기?
 
 #문제3
 q3l1=[int(input("정수: "))]
@@ -139,6 +141,22 @@ q4v4=[int(input("정수: "))]
 q4v5=[int(input("정수: "))]
 
 q4sum=q4v1+q4v2+q4v3+q4v4+q4v5
+q4mean=(int(q4sum[0])+int(q4sum[1])+int(q4sum[2])+int(q4sum[3])+int(q4sum[4]))/5
+print(q4mean)
+
+#이후 stop
+pc1 = (int(q4v1) - int(q4mean))
+pc2 = q4v2 - q4mean
+pc3 = q4v3 - q4mean
+pc4 = q4v4 - q4mean
+pc5 = q4v5 - q4mean
+
+vpc1 = pc1 * pc1
+vpc2 = pc2 * pc2
+vpc3 = pc3 * pc3
+vpc4 = pc4 * pc4
+vpc5 = pc5 * pc5
+
 
 
 
